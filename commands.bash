@@ -1,5 +1,6 @@
 # Get list of commits 
 git log --reflog
+git log --oneline
 
 # Split 1 branch into many smaller
 git branch feature-a
