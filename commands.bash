@@ -13,4 +13,4 @@ git checkout feature-main
 
 # Make all commits 
 git checkout feature-a
-git rebase -i feature-main     ## -i is for "Interactive"
+git rebase -i <commit-hash>     ## -i is for "Interactive"
