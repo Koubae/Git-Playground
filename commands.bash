@@ -14,3 +14,12 @@ git checkout feature-main
 # Make all commits 
 git checkout feature-a
 git rebase -i feature-main     ## -i is for "Interactive"
+
+
+
+### 
+# Scenario: branch_1, branch_2 from branch_1 --> commit branch_1, then commit branch_2
+###
+git checkout -b branch_1 master
+
+
